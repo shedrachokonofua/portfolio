@@ -1,0 +1,37 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "xo && ava"
+  },
+  "author": "Shedrach Okonofua",
+  "license": "ISC",
+  "dependencies": {
+    "ajv": "^6.10.2",
+    "gatsby": "^2.18.18",
+    "postcss": "^7.0.26",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "tailwindcss": "^1.1.4"
+  },
+  "devDependencies": {
+    "@storybook/react": "^5.2.8",
+    "ava": "^2.4.0",
+    "eslint-config-xo-react": "^0.22.0",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0",
+    "prettier": "^1.19.1",
+    "xo": "^0.25.3"
+  },
+  "xo": {
+    "extends": [
+      "xo-react"
+    ],
+    "prettier": true
+  },
+  "prettier": {
+    "trailingComma": "es5"
+  }
+}

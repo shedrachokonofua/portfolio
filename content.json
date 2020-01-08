@@ -1,0 +1,31 @@
+{
+  "contact": {
+    "name": "",
+    "role": "",
+    "email": "",
+    "phone": "",
+    "website": "",
+    "github": ""
+  },
+  "skills": {
+    "programming-languages": [],
+    "libraries-framworks": [],
+    "tools-platforms": [],
+    "methodologies": []
+  },
+  "expirience": [
+    {
+      "company": "",
+      "start": "",
+      "end": "",
+      "role": "",
+      "projects": [
+        {
+          "image": "",
+          "accomplishments": "",
+          "relevant-skills": []
+        }
+      ]
+    }
+  ]
+}
