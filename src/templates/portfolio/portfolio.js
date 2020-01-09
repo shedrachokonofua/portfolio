@@ -12,7 +12,7 @@ const Portfolio = ({
 	},
 }) => {
 	return (
-		<div className="px-4 lg:px-64">
+		<div className="px-4 md:px-24 lg:px-56">
 			<Contact data={contact} />
 		</div>
 	);
