@@ -7,7 +7,7 @@ module.exports.createPages = async ({actions: {createPage}}) => {
 
 	createPage({
 		path: '/',
-		component: require.resolve('./src/templates/portfolio.js'),
+		component: require.resolve('./src/templates/portfolio/'),
 		context: {data},
 	});
 };
