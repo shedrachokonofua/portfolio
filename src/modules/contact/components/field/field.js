@@ -2,7 +2,11 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 const Field = ({className, children}) => {
-	return <div className={'mb-2 text-center ' + className}>{children}</div>;
+	return (
+		<div className={'mb-2 text-center md:text-left ' + className}>
+			{children}
+		</div>
+	);
 };
 
 Field.propTypes = {
