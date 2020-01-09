@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava"
+    "test": "xo && ava",
+    "dev": "gatsby develop"
   },
   "author": "Shedrach Okonofua",
   "license": "ISC",
@@ -12,6 +13,7 @@
     "ajv": "^6.10.2",
     "gatsby": "^2.18.18",
     "postcss": "^7.0.26",
+    "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
     "tailwindcss": "^1.1.4"
@@ -39,6 +41,7 @@
     "prettier": true
   },
   "prettier": {
+    "useTabs": true,
     "trailingComma": "es5"
   }
 }
