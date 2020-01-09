@@ -1,20 +1,9 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import Field from './components/field';
+
 const Divider = () => <p className="hidden lg:block mx-4">•</p>;
-
-const Field = ({className, children}) => {
-	return <div className={'mb-2 text-center ' + className}>{children}</div>;
-};
-
-Field.propTypes = {
-	className: PropTypes.string,
-	children: PropTypes.isRequired,
-};
-
-Field.defaultProps = {
-	className: '',
-};
 
 const Contact = ({
 	data: {name, image, headline, summary, email, phone, github},
