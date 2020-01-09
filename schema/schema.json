@@ -5,15 +5,27 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "name": { "type": "string" },
-        "role": { "type": "string" },
-        "phone": { "type": "string" },
-        "github": { "type": "string" },
-        "email": { 
+        "name": {
+          "type": "string"
+        },
+        "image": {
+          "type": "string",
+          "format": "uri"
+        },
+        "role": {
+          "type": "string"
+        },
+        "phone": {
+          "type": "string"
+        },
+        "github": {
+          "type": "string"
+        },
+        "email": {
           "type": "string",
           "format": "email"
         },
-        "website": { 
+        "website": {
           "type": "string",
           "format": "uri"
         }
@@ -59,15 +71,45 @@
         "type": "object",
         "additionalProperties": false,
         "properties": {
-          "company": { "type": "string" },
-          "start": { "type": "string", "format": "date" },
-          "end": { "type": "string", "format": "date" },
-          "role": { "type": "string" },
-          "accomplishments": { 
+          "company": {
+            "type": "string"
+          },
+          "start": {
+            "type": "string",
+            "format": "date"
+          },
+          "end": {
+            "type": "string",
+            "format": "date"
+          },
+          "role": {
+            "type": "string"
+          },
+          "projects": {
             "type": "array",
-            "uniqueItems": true,
             "items": {
-              "type": "string"
+              "type": "object",
+              "additionalProperties": false,
+              "properties": {
+                "name": {
+                  "type": "string"
+                },
+                "image": {
+                  "type": "string",
+                  "format": "uri"
+                },
+                "accomplishments": {
+                  "type": "string"
+                },
+                "relevant-skills": {
+                  "type": "array",
+                  "uniqueItems": true,
+                  "items": {
+                    "type": "string"
+                  }
+                }
+
+              }
             }
           }
         }
@@ -77,8 +119,12 @@
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "degree": { "type": "string" },
-        "school": { "type": "string" }
+        "degree": {
+          "type": "string"
+        },
+        "school": {
+          "type": "string"
+        }
       }
     }
   }
