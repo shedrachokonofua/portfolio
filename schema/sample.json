@@ -1,0 +1,45 @@
+{
+  "contact": {
+    "name": "Test Subject",
+    "image": "https://test.com/image.png",
+    "role": "Test Role",
+    "email": "test@test.com",
+    "phone": "2898009000",
+    "website": "https://test.com",
+    "github": "test"
+  },
+  "skills": {
+    "programming-languages": [
+      "Javascript"
+    ],
+    "libraries-framworks": [
+      "React"
+    ],
+    "tools-platforms": [
+      "Docker"
+    ],
+    "methodologies": [
+      "TDD"
+    ]
+  },
+  "expirience": [
+    {
+      "company": "Test Company",
+      "start": "2019-01-01",
+      "end": "2019-02-01",
+      "role": "Test Role",
+      "projects": [
+        {
+          "name": "test project",
+          "image": "https://test.com/image.png",
+          "accomplishments": "tested things",
+          "relevant-skills": ["React"]
+        }
+      ]
+    }
+  ],
+  "education": {
+    "degree": "B.Eng Testing",
+    "school": "Test College"
+  }
+}
