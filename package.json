@@ -22,8 +22,15 @@
     "eslint-config-xo-react": "^0.22.0",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0",
+    "husky": "^4.0.1",
     "prettier": "^1.19.1",
     "xo": "^0.25.3"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "pre-push": "npm test"
+    }
   },
   "xo": {
     "extends": [
