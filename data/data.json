@@ -1,11 +1,11 @@
 {
   "contact": {
     "name": "Test Subject",
-    "image": "https://test.com/image.png",
-    "role": "Test Role",
+    "image": "/dev/contact-image.jpg",
+    "headline": "Test Role",
+    "summary": "Tester",
     "email": "test@test.com",
     "phone": "2898009000",
-    "website": "https://test.com",
     "github": "test"
   },
   "skills": {

@@ -9,10 +9,12 @@
           "type": "string"
         },
         "image": {
-          "type": "string",
-          "format": "uri"
+          "type": "string"
         },
-        "role": {
+        "headline": {
+          "type": "string"
+        },
+        "summary": {
           "type": "string"
         },
         "phone": {
@@ -24,10 +26,6 @@
         "email": {
           "type": "string",
           "format": "email"
-        },
-        "website": {
-          "type": "string",
-          "format": "uri"
         }
       }
     },
