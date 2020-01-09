@@ -29,84 +29,89 @@
         }
       }
     },
-    "skills": {
+    "qualifications": {
       "type": "object",
       "additionalProperties": false,
       "properties": {
-        "programming-languages": {
-          "type": "array",
-          "uniqueItems": true,
-          "items": {
-            "type": "string"
+        "skills": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "programming-languages": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            },
+            "libraries-framworks": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            },
+            "tools-platforms": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            },
+            "methodologies": {
+              "type": "array",
+              "uniqueItems": true,
+              "items": {
+                "type": "string"
+              }
+            }
           }
         },
-        "libraries-framworks": {
+        "expirience": {
           "type": "array",
-          "uniqueItems": true,
           "items": {
-            "type": "string"
-          }
-        },
-        "tools-platforms": {
-          "type": "array",
-          "uniqueItems": true,
-          "items": {
-            "type": "string"
-          }
-        },
-        "methodologies": {
-          "type": "array",
-          "uniqueItems": true,
-          "items": {
-            "type": "string"
-          }
-        }
-      }
-    },
-    "expirience": {
-      "type": "array",
-      "items": {
-        "type": "object",
-        "additionalProperties": false,
-        "properties": {
-          "company": {
-            "type": "string"
-          },
-          "start": {
-            "type": "string",
-            "format": "date"
-          },
-          "end": {
-            "type": "string",
-            "format": "date"
-          },
-          "role": {
-            "type": "string"
-          },
-          "projects": {
-            "type": "array",
-            "items": {
-              "type": "object",
-              "additionalProperties": false,
-              "properties": {
-                "name": {
-                  "type": "string"
-                },
-                "image": {
-                  "type": "string",
-                  "format": "uri"
-                },
-                "accomplishments": {
-                  "type": "string"
-                },
-                "relevant-skills": {
-                  "type": "array",
-                  "uniqueItems": true,
-                  "items": {
-                    "type": "string"
+            "type": "object",
+            "additionalProperties": false,
+            "properties": {
+              "company": {
+                "type": "string"
+              },
+              "start": {
+                "type": "string",
+                "format": "date"
+              },
+              "end": {
+                "type": "string",
+                "format": "date"
+              },
+              "role": {
+                "type": "string"
+              },
+              "projects": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "additionalProperties": false,
+                  "properties": {
+                    "name": {
+                      "type": "string"
+                    },
+                    "image": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "accomplishments": {
+                      "type": "string"
+                    },
+                    "relevant-skills": {
+                      "type": "array",
+                      "uniqueItems": true,
+                      "items": {
+                        "type": "string"
+                      }
+                    }
                   }
                 }
-
               }
             }
           }
