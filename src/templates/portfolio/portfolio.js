@@ -1,7 +1,14 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-const Portfolio = ({pageContext: {data}}) => <>Hello {data.contact.name}</>;
+// eslint-disable-next-line import/no-unassigned-import
+import '../../styles/global.css';
+
+const Portfolio = ({pageContext: {data}}) => {
+	const contactName = data.contact.name;
+
+	return <div className="px-4 lg:px-64">{contactName}</div>;
+};
 
 Portfolio.propTypes = {
 	pageContext: PropTypes.shape({
