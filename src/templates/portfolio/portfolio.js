@@ -4,18 +4,24 @@ import PropTypes from 'prop-types';
 // eslint-disable-next-line import/no-unassigned-import
 import '../../styles/global.css';
 
-const Portfolio = ({pageContext: {data}}) => {
-	const contactName = data.contact.name;
+import Contact from '../../modules/contact';
 
-	return <div className="px-4 lg:px-64">{contactName}</div>;
+const Portfolio = ({
+	pageContext: {
+		data: {contact},
+	},
+}) => {
+	return (
+		<div className="px-4 lg:px-64">
+			<Contact data={contact} />
+		</div>
+	);
 };
 
 Portfolio.propTypes = {
 	pageContext: PropTypes.shape({
 		data: PropTypes.shape({
-			contact: PropTypes.shape({
-				name: PropTypes.string.isRequired,
-			}).isRequired,
+			contact: PropTypes.object.isRequired,
 		}).isRequired,
 	}).isRequired,
 };
