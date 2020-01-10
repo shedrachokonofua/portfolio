@@ -96,6 +96,10 @@
                     "name": {
                       "type": "string"
                     },
+                    "link": {
+                      "type": "string",
+                      "format": "uri"
+                    },
                     "image": {
                       "type": "string",
                       "format": "uri"

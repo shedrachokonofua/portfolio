@@ -32,6 +32,7 @@
         "projects": [
           {
             "name": "test project",
+            "link": "https://test.com",
             "image": "https://test.com/image.png",
             "accomplishments": "tested things",
             "relevant-skills": ["React"]
