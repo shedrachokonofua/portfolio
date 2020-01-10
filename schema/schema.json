@@ -104,6 +104,9 @@
                       "type": "string",
                       "format": "uri"
                     },
+                    "description": {
+                      "type": "string"
+                    },
                     "accomplishments": {
                       "type": "string"
                     },

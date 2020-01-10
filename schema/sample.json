@@ -32,6 +32,7 @@
         "projects": [
           {
             "name": "test project",
+            "description": "project description",
             "link": "https://test.com",
             "image": "https://test.com/image.png",
             "accomplishments": "tested things",
