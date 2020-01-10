@@ -44,7 +44,7 @@
                 "type": "string"
               }
             },
-            "libraries-framworks": {
+            "libraries-frameworks": {
               "type": "array",
               "uniqueItems": true,
               "items": {
