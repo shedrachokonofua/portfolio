@@ -41,7 +41,6 @@
     "prettier": true
   },
   "prettier": {
-    "useTabs": true,
     "trailingComma": "es5"
   }
 }
