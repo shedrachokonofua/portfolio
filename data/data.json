@@ -8,36 +8,61 @@
     "phone": "2898009000",
     "github": "test"
   },
-  "skills": {
-    "programming-languages": [
-      "Javascript"
-    ],
-    "libraries-framworks": [
-      "React"
-    ],
-    "tools-platforms": [
-      "Docker"
-    ],
-    "methodologies": [
-      "TDD"
+  "qualifications": {
+    "skills": {
+      "programming-languages": [
+        "Javascript",
+        "PHP",
+        "Python"
+      ],
+      "libraries-frameworks": [
+        "React",
+        "React Native",
+        "Vue",
+        "AngularJS",
+        "Ionic"
+      ],
+      "tools-platforms": [
+        "AWS",
+        "Redis",
+        "OpenShift",
+        "Heroku",
+        "Docker",
+        "MongoDB",
+        "MySQL",
+        "PostgreSQL",
+        "WordPress"
+      ],
+      "methodologies": [
+        "Test Driven Development",
+        "Behaviour Driven Development",
+        "Agile",
+        "Atomic Design",
+        "Unit Testing",
+        "Integration Testing",
+        "Functional Programming",
+        "Continuous Integration",
+        "Continuous Delivery",
+        "End-to-end Testing"
+      ]
+    },
+    "expirience": [
+      {
+        "company": "Test Company",
+        "start": "2019-01-01",
+        "end": "2019-02-01",
+        "role": "Test Role",
+        "projects": [
+          {
+            "name": "test project",
+            "image": "https://test.com/image.png",
+            "accomplishments": "tested things",
+            "relevant-skills": ["React"]
+          }
+        ]
+      }
     ]
   },
-  "expirience": [
-    {
-      "company": "Test Company",
-      "start": "2019-01-01",
-      "end": "2019-02-01",
-      "role": "Test Role",
-      "projects": [
-        {
-          "name": "test project",
-          "image": "https://test.com/image.png",
-          "accomplishments": "tested things",
-          "relevant-skills": ["React"]
-        }
-      ]
-    }
-  ],
   "education": {
     "degree": "B.Eng Testing",
     "school": "Test College"
