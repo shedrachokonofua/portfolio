@@ -107,8 +107,11 @@
                     "description": {
                       "type": "string"
                     },
-                    "accomplishments": {
-                      "type": "string"
+                    "highlights": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
                     },
                     "relevant-skills": {
                       "type": "array",
