@@ -67,7 +67,7 @@
             }
           }
         },
-        "expirience": {
+        "experience": {
           "type": "array",
           "items": {
             "type": "object",
@@ -77,12 +77,10 @@
                 "type": "string"
               },
               "start": {
-                "type": "string",
-                "format": "date"
+                "type": "string"
               },
               "end": {
-                "type": "string",
-                "format": "date"
+                "type": "string"
               },
               "role": {
                 "type": "string"
