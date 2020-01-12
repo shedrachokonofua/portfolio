@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Skill from './components/skill';
+import Badge from '../../../../../../components/badge';
 
 const idToTitleMapping = {
 	'programming-languages': 'Languages',
@@ -14,7 +14,7 @@ const SkillGroup = ({id, skills}) => {
 	const title = idToTitleMapping[id];
 	const skillList = skills
 		.sort()
-		.map(skill => <Skill key={skill} name={skill} />);
+		.map(skill => <Badge key={skill}>{skill}</Badge>);
 
 	return (
 		<div className="py-2">

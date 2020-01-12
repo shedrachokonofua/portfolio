@@ -67,7 +67,7 @@
             }
           }
         },
-        "expirience": {
+        "experience": {
           "type": "array",
           "items": {
             "type": "object",
@@ -77,12 +77,10 @@
                 "type": "string"
               },
               "start": {
-                "type": "string",
-                "format": "date"
+                "type": "string"
               },
               "end": {
-                "type": "string",
-                "format": "date"
+                "type": "string"
               },
               "role": {
                 "type": "string"
@@ -96,12 +94,22 @@
                     "name": {
                       "type": "string"
                     },
+                    "link": {
+                      "type": "string",
+                      "format": "uri"
+                    },
                     "image": {
                       "type": "string",
                       "format": "uri"
                     },
-                    "accomplishments": {
+                    "description": {
                       "type": "string"
+                    },
+                    "highlights": {
+                      "type": "array",
+                      "items": {
+                        "type": "string"
+                      }
                     },
                     "relevant-skills": {
                       "type": "array",
