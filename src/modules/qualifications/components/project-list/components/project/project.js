@@ -1,12 +1,17 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-import Badge from '../../../../../../../../components/badge';
+import Badge from '../../../../../../components/badge';
 
 const Project = ({
-	data: {name, description, highlights, 'relevant-skills': relevantSkills},
-	company,
-	role,
+	data: {
+		name,
+		description,
+		highlights,
+		'relevant-skills': relevantSkills,
+		company,
+		role,
+	},
 }) => {
 	const Highlights = highlights.map((text, i) => (
 		<li key={i.toString()}>{text}</li>
@@ -44,8 +49,6 @@ const Project = ({
 
 Project.propTypes = {
 	data: PropTypes.object.isRequired,
-	company: PropTypes.string.isRequired,
-	role: PropTypes.string.isRequired,
 };
 
 export default Project;
