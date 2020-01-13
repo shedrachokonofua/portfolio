@@ -13,10 +13,10 @@ const Skills = ({data}) => {
 
 	return (
 		<div>
-			<div className="mb-4 text-center text-xs text-gray-600">
+			<div className="mb-4 text-center text-xs font-bold text-gray-800">
 				Click on skill to refine project portfolio
 			</div>
-			<div className="flex flex-wrap mb-8">{skillGroups}</div>
+			<div className="flex flex-wrap mb-2">{skillGroups}</div>
 		</div>
 	);
 };

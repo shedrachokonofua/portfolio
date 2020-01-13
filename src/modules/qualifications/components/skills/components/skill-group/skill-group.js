@@ -19,10 +19,13 @@ const SkillGroup = ({id, skills}) => {
 	const title = idToTitleMapping[id];
 	const skillList = skills.sort().map(skill => {
 		const selectSkill = () => toggleSkillSelection(skill);
-		const selectedClass = isSkillSelected(skill) ? 'bg-gray-700' : '';
 
 		return (
-			<Badge key={skill} className={selectedClass} onClick={selectSkill}>
+			<Badge
+				key={skill}
+				isHighlighted={isSkillSelected(skill)}
+				onClick={selectSkill}
+			>
 				{skill}
 			</Badge>
 		);
@@ -30,7 +33,7 @@ const SkillGroup = ({id, skills}) => {
 
 	return (
 		<div className="py-2">
-			<div className="text-sm">{title}</div>
+			<div className="text-sm leading-tight text-gray-800">{title}</div>
 			<div>{skillList}</div>
 		</div>
 	);

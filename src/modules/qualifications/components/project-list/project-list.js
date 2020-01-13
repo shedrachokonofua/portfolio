@@ -26,10 +26,10 @@ const ProjectList = ({data}) => {
 	));
 
 	return (
-		<>
+		<div>
 			<h1 className="text-xl">Project Portfolio ({refinedProjects.length})</h1>
 			<div className="mt-2">{Projects}</div>
-		</>
+		</div>
 	);
 };
 
