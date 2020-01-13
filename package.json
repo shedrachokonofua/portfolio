@@ -7,7 +7,7 @@
     "test": "xo && ava",
     "dev": "gatsby develop",
     "build": "gatsby build",
-    "publish": "gh-pages -d public -b master",
+    "publish": "gh-pages -d public -b master -r https://github.com/shedrachokonofua/shedrachokonofua.github.io",
     "deploy": "npm test && npm run build && npm run publish"
   },
   "author": "Shedrach Okonofua",
