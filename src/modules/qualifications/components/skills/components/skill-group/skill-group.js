@@ -1,6 +1,7 @@
-import React from 'react';
+import React, {useContext} from 'react';
 import PropTypes from 'prop-types';
 
+import ProjectRefinementContext from '../../../../project-refinement-context';
 import Badge from '../../../../../../components/badge';
 
 const idToTitleMapping = {
@@ -11,10 +12,21 @@ const idToTitleMapping = {
 };
 
 const SkillGroup = ({id, skills}) => {
+	const {toggleSkillSelection, isSkillSelected} = useContext(
+		ProjectRefinementContext
+	);
+
 	const title = idToTitleMapping[id];
-	const skillList = skills
-		.sort()
-		.map(skill => <Badge key={skill}>{skill}</Badge>);
+	const skillList = skills.sort().map(skill => {
+		const selectSkill = () => toggleSkillSelection(skill);
+		const selectedClass = isSkillSelected(skill) ? 'bg-gray-700' : '';
+
+		return (
+			<Badge key={skill} className={selectedClass} onClick={selectSkill}>
+				{skill}
+			</Badge>
+		);
+	});
 
 	return (
 		<div className="py-2">

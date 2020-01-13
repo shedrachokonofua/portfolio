@@ -11,7 +11,14 @@ const Skills = ({data}) => {
 		</div>
 	));
 
-	return <div className="flex flex-wrap mb-8">{skillGroups}</div>;
+	return (
+		<div>
+			<div className="mb-4 text-center text-xs text-gray-600">
+				Click on skill to refine project portfolio
+			</div>
+			<div className="flex flex-wrap mb-8">{skillGroups}</div>
+		</div>
+	);
 };
 
 Skills.propTypes = {

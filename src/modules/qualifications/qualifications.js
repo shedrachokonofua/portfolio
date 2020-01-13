@@ -1,15 +1,16 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
+import {ProjectRefinementProvider} from './project-refinement-context';
 import Skills from './components/skills';
-import Experience from './components/experience';
+import ProjectList from './components/project-list';
 
 const Qualifications = ({data: {skills, experience}}) => {
 	return (
-		<>
+		<ProjectRefinementProvider>
 			<Skills data={skills} />
-			<Experience data={experience} />
-		</>
+			<ProjectList data={experience} />
+		</ProjectRefinementProvider>
 	);
 };
 

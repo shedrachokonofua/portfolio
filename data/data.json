@@ -11,12 +11,13 @@
   "qualifications": {
     "skills": {
       "programming-languages": [
-        "Javascript",
+        "JavaScript",
         "PHP",
         "Python",
         "HTML",
         "CSS",
-        "SASS"
+        "SASS",
+        "TypeScript"
       ],
       "libraries-frameworks": [
         "React",
@@ -25,7 +26,8 @@
         "AngularJS",
         "Ionic",
         "Redux",
-        "Vuex"
+        "Vuex",
+        "Flask"
       ],
       "tools-platforms": [
         "AWS",
@@ -40,7 +42,8 @@
         "GraphQL",
         "Jenkins",
         "CircleCI",
-        "Cypress"
+        "Cypress",
+        "Node.js"
       ],
       "methodologies": [
         "Test Driven Development",
@@ -69,7 +72,7 @@
             "image": "https://test.com/image.png",
             "description": "Red Thread Innovations Brand Website.",
             "highlights": [
-              "Colloborated in development of brand website via a custom wordpress theme designed for a composable, block-based atomic ui."
+              "Colloborated in development of brand website via custom wordpress theme designed for a composable, block-based atomic ui."
             ],
             "link": "https://test.com",
             "relevant-skills": [
@@ -113,7 +116,9 @@
               "End-to-end Testing",
               "Agile Development",
               "Responsive Web Design",
-              "Cypress"
+              "Cypress",
+              "Node.js",
+              "Functional Programming"
             ]
           }
         ]
@@ -143,7 +148,9 @@
               "Integration Testing",
               "Heroku",
               "MongoDB",
-              "Test Driven Development"
+              "Test Driven Development",
+              "Node.js",
+              "Functional Programming"
             ]
           },
           {
@@ -166,7 +173,8 @@
               "Unit Testing",
               "MongoDB",
               "Redis",
-              "Integration Testing"
+              "Integration Testing",
+              "Node.js"
             ]
           }
         ]
@@ -190,6 +198,7 @@
               "CSS",
               "JavaScript",
               "Vue",
+              "Vuex",
               "Test Driven Development",
               "Unit Testing",
               "MySQL",
@@ -216,7 +225,8 @@
               "MySQL",
               "Python",
               "Integration Testing",
-              "WordPress"
+              "WordPress",
+              "Node.js"
             ]
           }
         ]
@@ -233,6 +243,7 @@
             "description": "Location based social business discovery app.",
             "highlights": [
               "Collaborated with designer to implement cross-platform hybrid mobile app.",
+              "Designed and implemented back-end api",
               "Implemented continuous deployment for mobile app and back end",
               "Implemented integrations with several internal services",
               "Implemented insight gathering and monitoring service"
@@ -247,7 +258,9 @@
               "Unit Testing",
               "Heroku",
               "CircleCI",
-              "Continuous Deployment"
+              "Continuous Deployment",
+              "Node.js",
+              "Redux"
             ]
           },
           {
@@ -267,7 +280,8 @@
               "Unit Testing",
               "CircleCI",
               "Continuous Deployment",
-              "Microservice Architecture"
+              "Microservice Architecture",
+              "Node.js"
             ]
           },
           {
@@ -290,7 +304,9 @@
               "Continuous Deployment",
               "Microservice Architecture",
               "MongoDB",
-              "Heroku"
+              "Heroku",
+              "Node.js",
+              "Redux"
             ]
           },
           {
@@ -331,7 +347,8 @@
               "AngularJS",
               "React Native",
               "JavaScript",
-              "MongoDB"
+              "MongoDB",
+              "Node.js"
             ]
           },
           {
@@ -349,7 +366,8 @@
               "React",
               "Python",
               "MongoDB",
-              "Heroku"
+              "Heroku",
+              "Flask"
             ]
           }
         ]
