@@ -21,7 +21,7 @@ const Project = ({
 		.map(skill => <Badge key={skill}>{skill}</Badge>);
 
 	return (
-		<div className="max-w-full w-full rounded-lg shadow p-4 mb-4 border border-gray-300 ">
+		<div className="max-w-full w-full card">
 			<table className="table-fixed max-w-full w-full leading-none mb-4">
 				<thead className="md:text-left text-xs text-gray-500">
 					<tr>
@@ -30,7 +30,7 @@ const Project = ({
 						<th>Role</th>
 					</tr>
 				</thead>
-				<tbody>
+				<tbody className="text-sm">
 					<tr>
 						<td>{name}</td>
 						<td>{company}</td>
@@ -38,9 +38,11 @@ const Project = ({
 					</tr>
 				</tbody>
 			</table>
-			<div>{description}</div>
+			<div className="mb-2">{description}</div>
 			<div>
-				<ul className="list-disc list-inside leading-tight">{Highlights}</ul>
+				<ul className="list-disc list-inside leading-tight text-sm">
+					{Highlights}
+				</ul>
 			</div>
 			<div className="mt-2">{RelevantSkills}</div>
 		</div>
