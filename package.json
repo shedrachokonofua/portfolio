@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "xo && ava",
-    "dev": "gatsby develop"
+    "dev": "gatsby develop",
+    "build": "gatsby build",
+    "publish": "gh-pages -d public -b master",
+    "deploy": "npm test && npm run build && npm run publish"
   },
   "author": "Shedrach Okonofua",
   "license": "ISC",
@@ -20,11 +23,12 @@
     "tailwindcss": "^1.1.4"
   },
   "devDependencies": {
-    "@storybook/react": "^5.2.8",
+    "array-flat-polyfill": "^1.0.1",
     "ava": "^2.4.0",
     "eslint-config-xo-react": "^0.22.0",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0",
+    "gh-pages": "^2.2.0",
     "husky": "^4.0.1",
     "prettier": "^1.19.1",
     "xo": "^0.25.3"

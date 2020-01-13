@@ -1,6 +1,9 @@
 import React, {useContext} from 'react';
 import PropTypes from 'prop-types';
 
+// eslint-disable-next-line import/no-unassigned-import
+import 'array-flat-polyfill';
+
 import ProjectRefinementContext from '../../project-refinement-context';
 import Project from './components/project';
 
