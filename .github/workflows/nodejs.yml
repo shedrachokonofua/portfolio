@@ -11,15 +11,22 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+    - uses: fusion-engineering/setup-git-credentials@v2
+      with:
+        credentials: ${{secrets.GIT_CREDENTIALS}}
+
     - uses: actions/checkout@v1
+
     - name: Setup Node
       uses: actions/setup-node@v1
       with:
-        node-version: '10.x'
+        node-version: '10.x'    
+
     - name: Install Dependencies
       run: npm install
       env:
         CI: true
+
     - name: Deploy
       run: |
         npm run deploy
