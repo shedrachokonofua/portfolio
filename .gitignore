@@ -108,3 +108,6 @@ dist
 
 # Gatsby build path
 public/
+
+# Misc
+.DS_Store
