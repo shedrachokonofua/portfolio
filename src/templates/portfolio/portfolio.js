@@ -1,4 +1,5 @@
 import React from 'react';
+import {Helmet} from 'react-helmet';
 import PropTypes from 'prop-types';
 
 // eslint-disable-next-line import/no-unassigned-import
@@ -14,6 +15,10 @@ const Portfolio = ({
 }) => {
 	return (
 		<div className="px-4 md:px-24 lg:px-48">
+			<Helmet>
+				<meta charSet="utf-8" />
+				<title>Portfolio</title>
+			</Helmet>
 			<Contact data={contact} />
 			<Qualifications data={qualifications} />
 		</div>
